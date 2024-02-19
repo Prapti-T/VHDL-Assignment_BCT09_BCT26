@@ -31,6 +31,9 @@ The testbench includes various test cases to verify the behavior of the sequence
  4. **Test Case 4**:Inputs (a='1')
  5. (*Add more test cases as needed*)
 
+###  State Diagram
+ ![State diagram of sequence detector](/Sequence%20Detection/statediagram.png)
+ 
 ### Simulation Duration
  Each test case is simulated for a duration to allow  sufficient time for the computation to finish and the result to stabilize.
 
