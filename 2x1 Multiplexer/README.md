@@ -27,6 +27,9 @@ The testbench includes various test cases to verify the behavior of the 2*1 mux:
  2. **Test Case 2**:Inputs (S0='0',A0='0',A1='1')
  3. (*Add more test cases as needed*)
 
+### circuit Diagram
+ ![Circuit Diagram of mux](/2x1%20Multiplexer/21mux.png)
+
 ### Simulation Duration
  Each test case is simulated for a duration to allow  sufficient time for the computation to finish and the result to stabilize.
 
