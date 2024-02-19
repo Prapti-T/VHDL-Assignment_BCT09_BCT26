@@ -29,6 +29,9 @@ The testbench includes various test cases to verify the behavior of the up count
  2. **Test Case 2**:Inputs (RST='0')
  3. (*Add more test cases as needed*)
 
+### STATE DIAGRAM
+ ![state diagram of upCounter](/Up%20Counter/statediagram.png)
+ 
 ### Simulation Duration
  Each test case is simulated for a duration to allow  sufficient time for the computation to finish and the result to stabilize.
 
