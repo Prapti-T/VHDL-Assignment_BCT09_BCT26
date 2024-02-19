@@ -30,6 +30,9 @@ The testbench includes various test cases to verify the behavior of the LCM:
  2. **Test Case 2**:Inputs (a=7), (b=13)
  3. (*Add more test cases as needed*)
 
+### STATE DIAGRAM
+ ![state diagram of lcm](/LCM%20(Least%20Common%20Multiple)/statediagram.png)
+ 
 ### Simulation Duration
  Each test case is simulated for a duration to allow  sufficient time for the computation to finish and the result to stabilize.
 
