@@ -1,21 +1,21 @@
 ## Write VHDL code for sequence detector(1011)
 
 # **SEQUENCE DETECTOR**
-This repository contains VHDL code for Sequence Detector(- ![#f03c15](sequence)) and its corresponding testbench (- ![#f03c15](sd_tb)).
+This repository contains VHDL code for Sequence Detector(sequence) and its corresponding testbench (sd_tb).
 
 ### Files
- - - ![#f03c15](detector.vhdl): VHDL code for the detector entity and architecture
- - - ![#f03c15](detector_tb.vhdl): VHDL code for the sd_tb entity and architecture.
+ - (detector.vhdl): VHDL code for the detector entity and architecture
+ - (detector_tb.vhdl): VHDL code for the sd_tb entity and architecture.
 
-### SEQUENCEDETECTOR((- ![#f03c15](sequence)))
-The (- ![#f03c15](sequence)) entity represents Jk flipflop with following ports: 
- - (- ![#f03c15](RESET)): Reset input
- - (- ![#f03c15](CLK)): Clock input
- - (- ![#f03c15](a)):  input bit
- - (- ![#f03c15](z)): output
+### SEQUENCEDETECTOR((sequence))
+The (sequence) entity represents Jk flipflop with following ports: 
+ - (RESET): Reset input
+ - (CLK): Clock input
+ - (a):  input bit
+ - (z): output
 
 ### Testbench(jk_tb)
-The testbench(- ![#f03c15](sd_tb)) is used to verify the functionality of the (- ![#f03c15](sequence)) entity. It provides stimulus to the sequence detector module and observes its outputs.
+The testbench(sd_tb) is used to verify the functionality of the (sequence) entity. It provides stimulus to the sequence detector module and observes its outputs.
 
 ### Running the Testbench
 To run the testbench: 
@@ -25,10 +25,10 @@ To run the testbench:
 
 ### Test Cases
 The testbench includes various test cases to verify the behavior of the sequence detector: 
- 1. **Test Case 1**:Inputs - ![#f03c15](a='1')
- 2. **Test Case 2**:Inputs - ![#f03c15](a='0')
- 3. **Test Case 3**:Inputs - ![#f03c15](a='1')
- 4. **Test Case 4**:Inputs - ![#f03c15](a='1')
+ 1. **Test Case 1**:Inputs (a='1')
+ 2. **Test Case 2**:Inputs (a='0')
+ 3. **Test Case 3**:Inputs (a='1')
+ 4. **Test Case 4**:Inputs (a='1')
  5. (*Add more test cases as needed*)
 
 ### Simulation Duration

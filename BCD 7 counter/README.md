@@ -1,19 +1,19 @@
 ## Write VHDL code for BCD 7 COUNTER
 
 # **BCD 7 COUNTER**
-This repository contains VHDL code for BCD 7 COUNTER(- ![#f03c15](bcd_seg)) and its corresponding testbench (- ![#f03c15](BCD_tb)).
+This repository contains VHDL code for BCD 7 COUNTER(bcd_seg) and its corresponding testbench (BCD_tb).
 
 ### Files
- - - ![#f03c15](BCD.vhdl): VHDL code for the bcd_seg entity and architecture
- - - ![#f03c15](BCD_tb.vhdl): VHDL code for the BCD_tb entity and architecture.
+ - (BCD.vhdl): VHDL code for the bcd_seg entity and architecture
+ - (BCD_tb.vhdl): VHDL code for the BCD_tb entity and architecture.
 
-### BCD 7 COUNTER((- ![#f03c15](bcd_seg)))
-The (- ![#f03c15](bcd_seg)) entity represents upCounter with following ports: 
- - (- ![#f03c15](b0,b1,b2,b3)):  input bit
- - (- ![#f03c15](a,b,c,d,e,f,g)): output
+### BCD 7 COUNTER((bcd_seg))
+The (bcd_seg) entity represents upCounter with following ports: 
+ - (b0,b1,b2,b3):  input bit
+ - (a,b,c,d,e,f,g): output
 
 ### Testbench(BCD_tb)
-The testbench(- ![#f03c15](BCD_tb)) is used to verify the functionality of the (- ![#f03c15](bcd_seg)) entity. It provides stimulus to the full adder module and observes its outputs.
+The testbench(BCD_tb) is used to verify the functionality of the (bcd_seg) entity. It provides stimulus to the full adder module and observes its outputs.
 
 ### Running the Testbench
 To run the testbench: 

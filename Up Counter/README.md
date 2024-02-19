@@ -1,21 +1,21 @@
 ## Write VHDL code for upCounter
 
 # **SEQUENCE DETECTOR**
-This repository contains VHDL code for upCounter(- ![#f03c15](TFF)) and its corresponding testbench (- ![#f03c15](tb_counter)).
+This repository contains VHDL code for upCounter(-TFF) and its corresponding testbench (tb_counter).
 
 ### Files
- - - ![#f03c15](upcounter.vhdl): VHDL code for the TFF entity and architecture
- - - ![#f03c15](upcounter_tb.vhdl): VHDL code for the tb_counter entity and architecture.
+ - (upcounter.vhdl): VHDL code for the TFF entity and architecture
+ - (upcounter_tb.vhdl): VHDL code for the tb_counter entity and architecture.
 
-### UPCOUNTER((- ![#f03c15](TFF)))
-The (- ![#f03c15](TFF)) entity represents upCounter with following ports: 
- - (- ![#f03c15](RESET)): Reset input
- - (- ![#f03c15](CLK)): Clock input
- - (- ![#f03c15](T)):  input bit
- - (- ![#f03c15](Q)): output
+### UPCOUNTER((TFF))
+The (TFF) entity represents upCounter with following ports: 
+ - (RESET): Reset input
+ - (CLK): Clock input
+ - (T):  input bit
+ - (Q): output
 
 ### Testbench(jk_tb)
-The testbench(- ![#f03c15](tb_counter)) is used to verify the functionality of the (- ![#f03c15](TFF)) entity. It provides stimulus to the upcounter module and observes its outputs.
+The testbench(tb_counter) is used to verify the functionality of the (TFF) entity. It provides stimulus to the upcounter module and observes its outputs.
 
 ### Running the Testbench
 To run the testbench: 
@@ -25,8 +25,8 @@ To run the testbench:
 
 ### Test Cases
 The testbench includes various test cases to verify the behavior of the up counter: 
- 1. **Test Case 1**:Inputs - ![#f03c15](RST='1')
- 2. **Test Case 2**:Inputs - ![#f03c15](RST='0')
+ 1. **Test Case 1**:Inputs (RST='1')
+ 2. **Test Case 2**:Inputs (RST='0')
  3. (*Add more test cases as needed*)
 
 ### Simulation Duration

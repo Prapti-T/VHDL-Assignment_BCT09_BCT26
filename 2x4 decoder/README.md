@@ -1,19 +1,19 @@
 ## Write VHDL code for 2*4 DECODER
 
 # **2*4 DECODER**
-This repository contains VHDL code for 2*4 decoder(- ![#f03c15](decoder)) and its corresponding testbench (- ![#f03c15](DECODER_tb)).
+This repository contains VHDL code for 2*4 decoder(decoder) and its corresponding testbench (DECODER_tb).
 
 ### Files
- - - ![#f03c15](DECODER.vhdl): VHDL code for the decoder entity and architecture
- - - ![#f03c15](DECODER_tb.vhdl): VHDL code for the DECODER_tb entity and architecture.
+ - (DECODER.vhdl): VHDL code for the decoder entity and architecture
+ - (DECODER_tb.vhdl): VHDL code for the DECODER_tb entity and architecture.
 
-### 2*4 DECODER((- ![#f03c15](decoder)))
-The (- ![#f03c15](decoder)) entity represents decoder with following ports: 
- - (- ![#f03c15](a1,a0,e)):  input bit
- - (- ![#f03c15](q3,q2,q1,q0)): output
+### 2*4 DECODER((decoder))
+The (decoder) entity represents decoder with following ports: 
+ - (a1,a0,e):  input bit
+ - (q3,q2,q1,q0): output
 
 ### Testbench(DECODER_tb)
-The testbench(- ![#f03c15](DECODER_tb)) is used to verify the functionality of the (- ![#f03c15](decoder)) entity. It provides stimulus to the full adder module and observes its outputs.
+The testbench(DECODER_tb) is used to verify the functionality of the (decoder) entity. It provides stimulus to the full adder module and observes its outputs.
 
 ### Running the Testbench
 To run the testbench: 
@@ -23,8 +23,8 @@ To run the testbench:
 
 ### Test Cases
 The testbench includes various test cases to verify the behavior of the 2*4 decoder: 
- 1. **Test Case 1**:Inputs - ![#f03c15](a0='0',a1='0',e='1')
- 2. **Test Case 2**:Inputs - ![#f03c15](a0='1',a1='0',e='1')
+ 1. **Test Case 1**:Inputs (a0='0',a1='0',e='1')
+ 2. **Test Case 2**:Inputs (a0='1',a1='0',e='1')
  3. (*Add more test cases as needed*)
 
 ### Simulation Duration

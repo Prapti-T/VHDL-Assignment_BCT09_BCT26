@@ -1,20 +1,20 @@
 ## Write VHDL code for Full adder
 
 # **FULL ADDER**
-This repository contains VHDL code for Full Adder(- ![#f03c15](or_gate)) and its corresponding testbench (- ![#f03c15](fa_test)).
+This repository contains VHDL code for Full Adder(or_gate) and its corresponding testbench (fa_test).
 
 ### Files
- - - ![#f03c15](FULLADDER.vhdl): VHDL code for the or_gate entity and architecture
- - - ![#f03c15](FULLADDER_tb.vhdl): VHDL code for the fa_test entity and architecture.
+ - (FULLADDER.vhdl): VHDL code for the or_gate entity and architecture
+ - (FULLADDER_tb.vhdl): VHDL code for the fa_test entity and architecture.
 
-### FULL ADDER((- ![#f03c15](or_gate)))
-The (- ![#f03c15](or_gate)) entity represents upCounter with following ports: 
- - (- ![#f03c15](X)):  input bit
- - (- ![#f03c15](Y)):  input bit
- - (- ![#f03c15](Z)): output
+### FULL ADDER((or_gate))
+The (or_gate) entity represents upCounter with following ports: 
+ - (X):  input bit
+ - (Y):  input bit
+ - (Z): output
 
 ### Testbench(fa_test)
-The testbench(- ![#f03c15](fa_test)) is used to verify the functionality of the (- ![#f03c15](or_gate)) entity. It provides stimulus to the full adder module and observes its outputs.
+The testbench(fa_test) is used to verify the functionality of the (or_gate) entity. It provides stimulus to the full adder module and observes its outputs.
 
 ### Running the Testbench
 To run the testbench: 
@@ -24,8 +24,8 @@ To run the testbench:
 
 ### Test Cases
 The testbench includes various test cases to verify the behavior of the JK FLIPFLOP: 
- 1. **Test Case 1**:Inputs - ![#f03c15](A='0',B='0',Cin='1')
- 2. **Test Case 2**:Inputs - ![#f03c15](A='0',B='1',Cin='0')
+ 1. **Test Case 1**:Inputs (A='0',B='0',Cin='1')
+ 2. **Test Case 2**:Inputs (A='0',B='1',Cin='0')
  3. (*Add more test cases as needed*)
 
 ### Simulation Duration
