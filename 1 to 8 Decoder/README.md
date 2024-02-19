@@ -27,8 +27,8 @@ The onetoeight_tb includes various test cases to verify the behavior of the 1 to
  2. **Test Case 2**:Inputs (A='1',S2='0',S1='0',S0='0')
  3. (*Add more test cases as needed*)
 
-### STATE DIAGRAM
- ![state diagram of decoder](/1%20to%208%20Decoder/1to8.png)
+### Circuit Diagram
+ ![Circuit Diagram of decoder](/1%20to%208%20Decoder/1to8.png)
  
 ### Simulation Duration
  Each test case is simulated for a duration to allow  sufficient time for the computation to finish and the result to stabilize.
