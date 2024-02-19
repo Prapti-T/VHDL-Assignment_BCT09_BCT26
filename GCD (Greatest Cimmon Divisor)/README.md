@@ -30,6 +30,9 @@ The testbench includes various test cases to verify the behavior of the GCD calc
  1. **Test Case 1**:Inputs a = 123, b= 45.
  3. (*Add more test cases as needed*)
 
+###  State Diagram
+ ![State diagram of sequence detector](/GCD%20(Greatest%20Cimmon%20Divisor)/GCD.drawio.png)
+
 ### Simulation Duration
  Each test case is simulated for a duration to allow  sufficient time for the computation to finish and the result to stabilize.
 
