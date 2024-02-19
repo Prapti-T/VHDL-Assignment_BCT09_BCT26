@@ -3,8 +3,14 @@ This repository contains VHDL code and test cases for embedded system assignment
 
 # Prerequisites
 Ensure you have the following software installed on your system:
+- GHDL
+- GTKWave
+- Notepad++
 
-GHDL GTKWave Notepad++
+# Cloning the Repository
+```bash
+git clone https://github.com/Prapti-T/VHDL-Assignment_BCT09_BCT26.git
+```
 
 # Installing GHDL
 Follow the instructions on the GHDL GitHub repository to install GHDL on your system.
@@ -17,7 +23,10 @@ Describe how to run the test cases using GHDL and how to visualize waveforms wit
 
 # Example command for running GHDL
 ```bash
-ghdl -a your_test_bench.vhd ghdl -e your_test_bench ghdl -r your_test_bench --vcd=vcd_file.vcd
+ghdl -a vhdl_code.vhdl
+ghdl -a test_bench.vhdl
+ghdl -e test_bench_entity
+ghdl -r test_bench_entity --vcd=vcd_file.vcd
 ```
 
 # Example command for GTKWave
